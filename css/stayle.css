@@ -1,0 +1,311 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    text-transform: capitalize;
+    color: rgb(81, 90, 94);
+    background-color: rgb(106, 143, 177);
+    position: sticky;
+}
+h1{
+    font-size: 20px;
+}
+nav a{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(81, 90, 94);
+}
+nav a:hover{border: 1px solid black;}
+nav .sign{
+    background-color:rgba(77, 161, 112, 0.715);
+}
+/* .home_page */
+.home_page{
+    height: 100vh;
+    background-image: url(/images/daisies-g71bc4332e_1920.jpg);
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.home_page_item{
+    padding: 43px;
+    width: 25%;
+    height: 55%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+.home_page_item h2{
+    font-size: 60px;
+    text-transform: capitalize;
+    border-bottom: 2px double whitesmoke;
+    border-top: 2px double whitesmoke;
+    /* outline:  2px solid black; */
+    width: 250px;
+    margin: 0px 20px;
+    padding: 10px 0px;
+}
+.home_page_item p{
+    font-size: 20px;
+    line-height: 35px;
+    margin: 25px;
+}
+.home_page_item a{
+    color: whitesmoke;
+    text-decoration: 1px dotted whitesmoke;
+}
+.home_page_item button{
+    padding: 10px;
+    width: 80%;
+    height: 60px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.007);
+    border: 1px solid  whitesmoke;
+    color: whitesmoke;
+}
+.home_page_item button:hover{
+    background-color:rgba(245, 245, 245, 0.24);
+} 
+.sec_2{
+    padding: 90px;
+    text-align: center;
+    background-image: url(/images/abstract-g643ed9a32_1920.png);
+    height: 80vh;
+    background-attachment: fixed;
+    color: rgb(81, 90, 94);
+}
+.sec_2_icon{
+    font-size: 80px;
+    color: rgba(77, 161, 112, 0.715);
+}
+.sec_2_p1{
+    font-size: 30px;
+    margin: 40px;
+    line-height: 50px;
+}
+.sec_2_p2{
+    font-size: 20;
+    line-height: 30px;
+}
+.sec_3{
+    padding: 40px 0px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid whitesmoke;
+    background-color:rgba(81, 90, 94, 0.114);
+    width: 1000px;
+    height: 80vh;
+}
+.box_left{
+    text-align: left;
+    width: 80%;
+    padding: 20px;
+    color: rgba(77, 161, 112, 0.715);
+}
+.box_left_p1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.box_left_p2{
+    margin: 30px 0px;
+    line-height: 30px;
+}
+.box_left button{
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.007);
+    color: rgba(77, 161, 112, 0.715);
+    border: 1px solid rgba(77, 161, 112, 0.715);
+    font-size: 15px;
+}
+.box_left button:hover{
+    background-color: rgba(77, 161, 112, 0.715);
+    color: whitesmoke;
+}
+.box_right{
+    width: 20%;
+    padding: 10px
+}
+.box_right i{
+    font-size: 80px;
+    color: rgba(77, 161, 112, 0.715);
+    margin: 8px;
+    margin-left: -20px;
+    margin-top: -10px;
+    padding: 5px;
+}
+.box_right_item{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 20px;
+    padding: 10px;
+}
+.sec_4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(182, 221, 223);
+    color: rgb(81, 90, 94);
+}
+.sec_4 i{
+    font-size: 60px;
+    color: rgba(77, 161, 112, 0.715);
+}
+.sec_4_item{
+    padding: 10px;
+    line-height: 20px;
+    margin: 20px;
+}
+.sec_4_item h3{
+    margin: 30px;
+    font-size: 30px;
+}
+.sec_4_item p{
+    line-height: 20px;
+}
+.sec_5{
+    width: 80%;
+    margin: 0px 10%;
+    background-color: rgba(81, 90, 94, 0.114);
+    border: 1px solid rgba(81, 90, 94, 0.114);
+    color: rgb(81, 90, 94);
+}
+.sec_5_title{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin: 50px;
+}
+.sec_5_box{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    text-align: center;
+}
+.sec_5_box_item{
+    width: 80%;
+    text-align: center;
+    margin: 50px 10%;
+}
+.sec_5_box_item img{
+    width: 80%;
+    height: 200px;
+}
+.sec_5_box_item h4{
+    margin: 20px;
+}
+.sec_5_box_item p{
+    font-size: 10px;
+}
+.sec_5 button{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 60px;
+    margin: 30px 450px;
+    font-size: 20px;
+    color: rgba(81, 90, 94, 0.973);
+    background-color: rgba(81, 90, 94, 0.07);
+    border: 0.5px solid gray;
+    margin-bottom: 50px;
+}
+.sec_5 button:hover{
+    color: whitesmoke;
+    background-color: rgba(81, 90, 94, 0.267);
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+}
+.sec_6{
+    padding-top: 80px;
+    text-align: center;
+    background-image: url(/images/daisies-g71bc4332e_1920.jpg);
+    height: 50vh;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+.sec_6 h3{
+    font-size: 30px;
+}
+.sec_6 p{
+    font-size: 20px;
+    margin: 40px;
+}
+.sec_6 button{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    margin: 20px;
+}
+.sec_6_btn1{
+    background-color:rgba(77, 161, 112, 0.866);
+    color: whitesmoke;
+    border: none;
+}
+.sec_6_btn2{
+    background-color:rgba(245, 245, 245, 0.079) ;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.sec_6_btn2:hover{
+    background-color: rgba(245, 245, 245, 0.223);
+}
+footer{
+    height: 50vh;
+    padding: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(77, 161, 112, 0.866);
+}
+.ftr_icon i{
+    padding: 10px;
+    border: 1px solid rgba(77, 161, 112, 0.866);
+    border-radius: 40px;
+}
+.ftr_icon i:hover{
+    transform: scale(1.1);
+}
+.ftr_text{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+}
+.ftr_text button{
+    padding: 0px 10px;
+    border: none;
+    color: rgba(81, 90, 94, 0.611);
+    border-right: 1px dotted black;
+    background-color: rgba(245, 245, 245, 0.032);
+}
+.ftr_text a{
+    color: rgba(81, 90, 94, 0.611);
+    animation-duration: 4s;
+}
+.ftr_text a:hover{
+   text-decoration: none;
+}
